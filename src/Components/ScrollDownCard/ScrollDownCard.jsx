@@ -15,7 +15,7 @@ class ScrollDownCard extends Component {
             </div>
             <div class="overlay">
                 <div class="ProfilePicture"></div>
-                <h1 class="Paragraph">Hi my name is Paul, and I’m a 3erd year Computer Science student at Del Valle University in Guatemala. I identify myself as a person with insatiable hungry for knowledge, and the will to learn.</h1>
+                <h1 class="Paragraph">Hi my name is Paul, and I am a 3erd year Computer Science student at Del Valle University in Guatemala. I identify myself as a person with insatiable hungry for knowledge, and the will to learn.</h1>
             </div>
         </div>
       )
