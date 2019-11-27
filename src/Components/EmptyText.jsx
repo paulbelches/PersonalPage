@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import css from './FlipCard.scss'
 
 class EmptyText extends Component {
     constructor(props) {

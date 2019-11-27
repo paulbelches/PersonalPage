@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import css from './ScrollDownCard.scss'
-import EmptyText from "../Components/EmptyText.jsx"
+import EmptyText from "../EmptyText.jsx"
 
 class ScrollDownCard extends Component {
     constructor(props) {

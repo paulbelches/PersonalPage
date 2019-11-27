@@ -1,9 +1,9 @@
 import React, { Component } from "react"
-import FlipCard from "../Components/FlipCard.jsx"
-import ProgressBar from "../Components/ProgressBar.jsx"
-import ScrollDownCard from "../Components/ScrollDownCard.jsx"
-import MainImage from "./MainImage.jsx"
-import ProjectShowUp from "./ProjectShowUp.jsx"
+import FlipCard from "./FlipCard/FlipCard.jsx"
+import ProgressBar from "./ProgressBar/ProgressBar.jsx"
+import ScrollDownCard from "./ScrollDownCard/ScrollDownCard.jsx"
+import MainImage from "./MainImage/MainImage.jsx"
+import ProjectShowUp from "./ProjectShowUp/ProjectShowUp.jsx"
 
 class App extends Component {
         constructor(props) {

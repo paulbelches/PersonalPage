@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import css from './FlipCard.scss'
-import EmptyText from "../Components/EmptyText.jsx"
-import Carrusel from "./Carrusel.jsx"
+import EmptyText from "../EmptyText.jsx"
+import Carrusel from "../Carrusel/Carrusel.jsx"
 
 class FlipCard extends Component {
     constructor(props) {
