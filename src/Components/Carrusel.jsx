@@ -89,7 +89,7 @@
             width: '52px',
             height: '50px',
             alignSelf: 'flex-end',
-            marginLeft: '447px',
+            
             display: 'flex',
             zIndex:'2',
             position: 'absolute'
@@ -109,10 +109,10 @@
           this.state = {
             cont: 0,
             img : [
-              'url(https://cdn.2kgames.com/2k.com/img/bioshockinfinite_ss_02.jpg)',
-              'url(https://cdn.2kgames.com/2k.com/img/bioshockinfinite_ss_04.jpg)',
-              'url(https://cdn.2kgames.com/2k.com/img/bioshockinfinite_ss_06.jpg)',
-              'url(https://cdn.2kgames.com/2k.com/img/bioshockinfinite_ss_08.jpg)',
+              'url(https://upload.wikimedia.org/wikipedia/commons/b/b6/Taylor415_acoustic.JPG)',
+              'url(https://upload.wikimedia.org/wikipedia/commons/f/f2/A_worn-out_baseball.JPG)',
+              'url(https://upload.wikimedia.org/wikipedia/commons/5/5a/Books_HD_%288314929977%29.jpg)',
+              'url(https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg)',
               'url(https://cdn.2kgames.com/2k.com/img/bioshockinfinite_ss_09.jpg)'
               ]
           }

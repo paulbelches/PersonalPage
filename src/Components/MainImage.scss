@@ -1,5 +1,7 @@
 $color: white;
-
+a {
+   text-decoration: none !important;
+}
  .text {
     margin-left: 300px;
     margin-top: -120px;
@@ -8,6 +10,29 @@ $color: white;
     margin-left: -338px;
     margin-top: 140px;
  } 
+ .text3 {
+    margin-left: -600px;
+    margin-top: 240px;
+    font-size: 50px;
+ } 
+ .text4 {
+    margin-left: -350px;
+    margin-top: 300px;
+    font-size: 20px;
+    color: $color;
+ } 
+ .text5 {
+    margin-left: -270px;
+    margin-top: 300px;
+    font-size: 20px; 
+    color: $color;
+ }
+ .text4:hover {
+    color: gray;
+ } 
+ .text5:hover { 
+    color: gray;
+ }
  .containerMain{
     height: 800px;
     color: $color;

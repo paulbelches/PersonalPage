@@ -16,7 +16,6 @@ class ProjectShowUp extends Component {
                 <div class="bg-image img3"></div>
                 <div class="bg-image img4"></div>
                 <div class="bg-image img5"></div>
-                <div class="bg-image img6"></div>
             </div>
         </div>
       )
