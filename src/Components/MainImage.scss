@@ -1,0 +1,84 @@
+$color: white;
+
+ .text {
+    margin-left: 300px;
+    margin-top: -120px;
+ } 
+ .text2 {
+    margin-left: -338px;
+    margin-top: 140px;
+ } 
+ .containerMain{
+    height: 800px;
+    color: $color;
+    font-size: 80px;
+    background:black;
+    position: relative;
+    display:flex;
+    justify-content: flex-start;
+     align-items:center;
+  }
+  
+  .orbita0{
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    border: dashed white 8px;
+    position: absolute;
+    margin-left: -260px;
+    /*transition: transform 60s linear;*/
+    animation: 30s girarOrbita2 linear 2s infinite;
+  }
+  .orbita{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: dashed white 5px;
+    position: absolute;
+    margin-left: -250px;
+    /*transition: transform 60s linear;*/
+    animation: 30s girarOrbita linear 2s infinite;
+  }
+  
+  .orbita2{
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    border: dashed white 3px;
+    position: absolute;
+    margin-left: -240px;
+    /*transition: transform 60s linear;*/
+    animation: 30s girarOrbita2 linear 2s infinite;
+  }
+  .orbita3{
+    width: 460px;
+    height: 460px;
+    border-radius: 250%;
+    border: dashed white 1px;
+    position: absolute;
+    margin-left: -230px;
+    /*transition: transform 60s linear;*/
+    animation: 30s girarOrbita linear 2s infinite;
+  }
+  
+  .orbita4{
+    width: 440px;
+    height: 440px;
+    border-radius: 250%;
+    border: dashed white 1px;
+    position: absolute;
+    margin-left: -220px;
+    /*transition: transform 60s linear;*/
+    animation: 30s girarOrbita2 linear 2s infinite;
+  }
+  
+      
+  @keyframes girarOrbita {
+              from {opacity: rotate(0deg);}
+              to {transform: rotate(360deg);}
+  }
+  
+  @keyframes girarOrbita2 {
+              from {opacity: rotate(0deg);}
+              to {transform: rotate(-360deg);}
+  }
